@@ -1,9 +1,10 @@
+//go:build !no_snappy
 // +build !no_snappy
 
 package compress
 
 import (
-	"github.com/golang/snappy"
+	"github.com/klauspost/compress/snappy"
 	"github.com/xitongsys/parquet-go/parquet"
 )
 
